@@ -1,3 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.left {
+  width: 75%;
+  float: left;
+}
+
+.right {
+  width: 25%;
+  float: left;
+}
+
 body {
   background-color: #d4d4d4;
   color: #0e0f7d;
