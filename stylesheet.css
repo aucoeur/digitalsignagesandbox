@@ -18,6 +18,7 @@
   height: auto;
   display: inline-block;
   margin: auto;
+  padding-top: 20px;
 }
 
 .clock {
@@ -63,7 +64,11 @@ body {
 }
 
 marquee {
-  font-size: 36px;
+  font-size: 48px;
   color: #d4d4d4;
   background-color: #0e0f7d;
+}
+
+footer {
+  padding: 25px;
 }
