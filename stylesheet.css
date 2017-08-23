@@ -2,6 +2,42 @@
     box-sizing: border-box;
 }
 
+.header {
+  height: 250px;
+  width:100%;
+}
+
+.logo {
+  width: 55%;
+  height: auto;
+  float: left;
+}
+
+.liblogo {
+  width: 75%;
+  height: auto;
+  display: inline-block;
+  margin: auto;
+}
+
+.clock {
+  height: 200px;
+  width: 40%;
+  font-size: 36px;
+  padding-top: 10px;
+  float: right;
+  background-color: #0e0f7d;
+  color: #d4d4d4;
+  display: inline-block;
+  text-align: center;
+}
+
+.time {
+  font-size: 96px;
+  padding-top: 25px;
+  margin: -10px;
+}
+
 .left {
   width: 75%;
   float: left;
@@ -17,4 +53,17 @@ body {
   color: #0e0f7d;
   font-family: 'PT Sans', sans-serif;
   font-size: 14px;
+}
+
+.poster {
+  background-color: #ffffff;
+  height: 1450px;
+  width: 1000px;
+  margin: auto;
+}
+
+marquee {
+  font-size: 36px;
+  color: #d4d4d4;
+  background-color: #0e0f7d;
 }
